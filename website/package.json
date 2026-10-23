@@ -1,0 +1,13 @@
+{
+  "name": "replica-flow-introduction",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node check.mjs",
+    "build:pages": "BASE_PATH=/Replica-Flow-skill BUILD_DIR=../docs node build.mjs"
+  }
+}

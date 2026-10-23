@@ -18,7 +18,7 @@ def main():
     if not (source / 'SKILL.md').is_file():
         parser.error('SKILL.md is missing. Download the complete package.')
     target.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(source, target, ignore=shutil.ignore_patterns('.git', '.DS_Store', '__pycache__', '*.pyc', '.env', '.env.*'))
+    shutil.copytree(source, target, ignore=shutil.ignore_patterns('.git', 'docs', 'website', '.DS_Store', '__pycache__', '*.pyc', '.env', '.env.*'))
     print(f'Installed ReplicaFlow: {target}')
     print('Open your Agent and invoke $replica-flow. If it is not listed, restart the Agent.')
 

@@ -4,6 +4,12 @@
 
 从网址、源码和截图出发，把网站布局与交互还原成可运行、可验证、可继续修改的工程。
 
+## 在线网站
+
+[访问 ReplicaFlow 网站](https://liuhaoqqnageshei-commits.github.io/Replica-Flow-skill/) · [安装与使用教程](https://liuhaoqqnageshei-commits.github.io/Replica-Flow-skill/guide/install/)
+
+网站顶部的 GitHub 图标可返回本仓库。网站源码在 `website/`，GitHub Pages 发布文件在 `docs/`。
+
 ## 包含什么
 
 - **需求澄清模块**：区分事实与选择，按依赖分轮提问，已有决定不重问。
