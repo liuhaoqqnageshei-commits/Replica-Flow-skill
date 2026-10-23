@@ -1,0 +1,4 @@
+interface:
+  display_name: "ReplicaFlow（复刻流）"
+  short_description: "源码优先的网站复刻，内含需求澄清、设计拆解与质量评审，确认后逐节构建和验收。"
+  default_prompt: "使用 $replica-flow 复刻我提供的网站，先读源码、补齐证据并展示分析报告，确认后逐节构建、对照与修正。"
